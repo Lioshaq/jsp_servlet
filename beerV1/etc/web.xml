@@ -11,4 +11,16 @@
 		<servlet-name>Ch3 beer</servlet-name>
 		<url-pattern>/SelectBeer.do</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>ParamTests</servlet-name>
+		<servlet-class>com.example.web.ParamTests</servlet-class>
+		<init-param>
+			<param-name>adminMail</param-name>
+			<param-value>adminMail@admin.com</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ParamTests</servlet-name>
+		<url-pattern>/Param.do</url-pattern>
+	</servlet-mapping>
 </web-app>

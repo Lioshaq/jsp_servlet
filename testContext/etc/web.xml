@@ -12,6 +12,16 @@
 		<url-pattern>/Listen</url-pattern>
 	</servlet-mapping>
 
+	<servlet>
+		<servlet-name>Session</servlet-name>
+		<servlet-class>com.example.SessionTest</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Session</servlet-name>
+		<url-pattern>/Session</url-pattern>
+	</servlet-mapping>
+
 	<context-param>
 		<param-name>abcdef</param-name>
 		<param-value>ABCDEFGH</param-value>

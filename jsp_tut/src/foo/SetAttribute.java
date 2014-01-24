@@ -7,9 +7,8 @@ public class SetAttribute extends HttpServlet{
 
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 	
-		foo.Person p = new foo.Person();
-		p.setName("Evan");
-		request.setAttribute("person", p);
+		String[] list = {"aaa", "bbb", "ccc", "ddd"};
+		request.setAttribute("list", list);
 
 		RequestDispatcher view = request.getRequestDispatcher("/result.jsp");
 		view.forward(request, response);

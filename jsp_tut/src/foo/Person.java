@@ -1,6 +1,6 @@
 package foo;
 
-public class Person {
+abstract public class Person {
 	String name;
 
 	
